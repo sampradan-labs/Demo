@@ -1,0 +1,14 @@
+Working with new project in a repo
+
+>git clone <repo>
+>cd <repo-folder>
+>add/modify/rename/delete files inside the local repo
+>git add -A
+>git commit -m ""
+>git push origin master
+
+--- Subsequent pushes to remote should follow these steps ------
+>git pull origin master
+>git add -A
+>git commit -m ""
+>git push origin master
