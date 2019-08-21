@@ -63,6 +63,12 @@ logs/
 >git log --oneline | wc -l
 #View the last commit
 >git show HEAD
+---- A common process of add, commit, push ------------
+>git clone <gitrepo.git>
+>git add -A
+>git commit -m "commit message"
+>git push origin master
+--------------------------------------------------------
 #For a repo like jquery to see the fetch and push origins
 >git remote -v
 #View remote branches for jquery
